@@ -1,0 +1,91 @@
+{
+    "best_model_path": "/apdcephfs_qy3/share_1565115/modihanwang/MultiAgentsProject/model/MAST-PNU_full/checkpoints/MAMI/round_13_ckpt.pth",
+    "best_epoch": {
+        "accuracy": 0.765,
+        "macro_f1": 0.7633698549306169,
+        "f1_score": 0.7437295528898582,
+        "precision": 0.8177458033573142,
+        "recall": 0.682,
+        "roc_auc": 0.7649999999999999
+    },
+    "epoch_0": {
+        "accuracy": 0.73,
+        "macro_f1": 0.719213298058204,
+        "f1_score": 0.664179104477612,
+        "precision": 0.8782894736842105,
+        "recall": 0.534,
+        "roc_auc": 0.7300000000000001
+    },
+    "epoch_1": {
+        "accuracy": 0.759,
+        "macro_f1": 0.7546601839946819,
+        "f1_score": 0.7220299884659747,
+        "precision": 0.8528610354223434,
+        "recall": 0.626,
+        "roc_auc": 0.7589999999999999
+    },
+    "epoch_2": {
+        "accuracy": 0.76,
+        "macro_f1": 0.7573757763975155,
+        "f1_score": 0.7321428571428571,
+        "precision": 0.8282828282828283,
+        "recall": 0.656,
+        "roc_auc": 0.76
+    },
+    "epoch_3": {
+        "accuracy": 0.753,
+        "macro_f1": 0.7492057335427685,
+        "f1_score": 0.7183580387685291,
+        "precision": 0.8355437665782494,
+        "recall": 0.63,
+        "roc_auc": 0.7529999999999999
+    },
+    "epoch_4": {
+        "accuracy": 0.765,
+        "macro_f1": 0.7633698549306169,
+        "f1_score": 0.7437295528898582,
+        "precision": 0.8177458033573142,
+        "recall": 0.682,
+        "roc_auc": 0.7649999999999999
+    },
+    "epoch_5": {
+        "accuracy": 0.745,
+        "macro_f1": 0.7404080785005971,
+        "f1_score": 0.7058823529411765,
+        "precision": 0.8337874659400545,
+        "recall": 0.612,
+        "roc_auc": 0.7450000000000001
+    },
+    "epoch_6": {
+        "accuracy": 0.695,
+        "macro_f1": 0.6741421658968942,
+        "f1_score": 0.5917001338688086,
+        "precision": 0.8947368421052632,
+        "recall": 0.442,
+        "roc_auc": 0.6949999999999998
+    },
+    "epoch_7": {
+        "accuracy": 0.737,
+        "macro_f1": 0.7272573601623596,
+        "f1_score": 0.6757090012330457,
+        "precision": 0.8810289389067524,
+        "recall": 0.548,
+        "roc_auc": 0.737
+    },
+    "epoch_8": {
+        "accuracy": 0.746,
+        "macro_f1": 0.7376889362563461,
+        "f1_score": 0.6909975669099757,
+        "precision": 0.8819875776397516,
+        "recall": 0.568,
+        "roc_auc": 0.7460000000000001
+    },
+    "epoch_9": {
+        "accuracy": 0.758,
+        "macro_f1": 0.7524296675191816,
+        "f1_score": 0.7152941176470589,
+        "precision": 0.8685714285714285,
+        "recall": 0.608,
+        "roc_auc": 0.758
+    }
+}
