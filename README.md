@@ -15,7 +15,7 @@ The proposed pipeline employs a self-training strategy, where a lightweight clas
 
 To simulate content auditing, where an auditor and a user collaborate to assess content, we introduce a framework based on MA-VLMs. This framework involves two agents: a strict auditor focused on detecting hate speech and a lenient user advocating for free expression. Each agent generates an initial decision and rationale, reviews the counterpart’s judgment, and issues a final revised decision. Pseudo-labels are assigned based on agent alignment: *Agreed-Unknown* when both agents agree, and *Disagreed-Unknown* otherwise.
 
-<img src="images/MA_VLMs" alt="MA-VLMs Framework" width="500"/>
+<img src="images/MA_VLMs.png" alt="MA-VLMs Framework" width="500"/>
 *Figure 2: MA-VLMs framework for hate meme detection.*
 
 ### Positive-Negative-Unlabeled (PNU) Loss
@@ -36,10 +36,10 @@ Where $\gamma \in \[-1, 1]$ is adaptively selected based on the dataset’s char
 
 Our experiments demonstrate the effectiveness of the MA-VLMs framework, the classifier's prediction verification through MA-VLMs, and the PNU loss. The lightweight classifier, trained with our self-training pipeline, significantly outperforms the supervised-only method and achieves performance comparable to larger models, particularly in low-resource settings, as illustrated in the figure. This approach facilitates scalable and high-quality content moderation.
 
-<img src="images/overall_results" alt="MA-VLMs Framework" width="1000"/>
+<img src="images/overall_results.png" alt="MA-VLMs Framework" width="1000"/>
 *Figure 3: Comparison of models and training strategies across four datasets (n = 100). PL Model = Pseudo-labeling model.*
 
-<img src="images/low_resource_results" alt="MA-VLMs Framework" width="800"/>
+<img src="images/low_resource_results.png" alt="MA-VLMs Framework" width="800"/>
 *Figure 4: Evalutation of models on low-resource hate video datasets (n = 100). PL Model = Pseudo-labeling model.*
 
 ## Code Setup
